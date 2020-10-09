@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div class = "title">
+	    <title> SONNET GENERATOR </title>
+	</div>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+	<link rel = "stylesheet" type = "text/css" href = "/static/css/second_style_trial.css">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<style>
+	img.one {
+	  height: auto;
+	  width: auto;
+	}
+
+	img.two {
+	  height:100%;
+	  width:100%;
+	}
+	h1{
+	font-family: "Montserrat",sans-serif;
+	}
+
+</style>
+<body>
+	<div class: "heading">
+		<h1 style="font-size: 80px;"> SONNET GENERATOR </h1>
+		
+	</div>
+			
+	
+	
+	<div class="center">
+		<div class="container">
+		<form method="POST" action="{{url_for('index')}}">
+		{% for ele in a %}
+			
+				<label>
+					<input type="checkbox" name="mycheckbox" value={{ele}}>
+					<span class="list"> {{ele}} </span>
+				</label>
+				
+			
+			
+			
+		{% endfor %}
+		<input type="submit" id="submit-butt">
+	    </form>
+		</div>
+	</div>
+	
+		
+	
+	
+	
+		<div id ="logos-row">
+				<div class = "logo-col">
+					<img class="one" src = "/static/IEEE logo 2.png">
+				</div>
+				<div class="org">
+					<h1> ADA LOVELACE HACKATHON ORGANISERS 2020</h1>
+				</div>
+				<div class = "logo-col">
+				     <img class="two" src = "/static/IBM logo 2.png" font:">
+			    </div>
+			
+	     </div>
+	
+    
+</body>
+</html>

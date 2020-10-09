@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div class = "title">
+	    <title> SONNET GENERATOR </title>
+	</div>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+	<link rel = "stylesheet" type = "text/css" href = "/static/css/style_trial.css">
+	<script type="text/javascript" src="/static/preview.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<style>
+	img.one {
+	  height: auto;
+	  width: auto;
+	}
+
+	img.two {
+	  height:100%;
+	  width:100%;
+	}
+	h1{
+	font-family: "Montserrat",sans-serif;
+	}
+
+</style>
+<body>
+	<div class: "heading">
+		<h1 style="font-size: 80px;"> SONNET GENERATOR </h1>
+		
+	</div>
+			
+	
+	<header>
+		<div class = "main">
+			
+			
+			
+			
+		</div>
+	</header>
+	
+	<div class="center">
+	<form method="post" action="{{url_for('home')}}" enctype="multipart/form-data"  >
+		<div class="form-input" formenctype="multipart/form-data">
+				
+				<input type="file" id="input_image" name="img" accept= "image/*" onchange="showPreview(event);">
+				
+			
+				<label for="input_image">
+					<span class="material-icons">
+					   add_photo_alternate
+					</span> &nbsp;
+					Choose a photo
+				</label>
+				<div class="preview">
+					<img id="file-ip-1-preview">
+				</div>
+				
+				
+			
+		</div>
+		<div class="input-box">
+			<input type="submit", id="submit-butt">
+			
+		</div>
+		</form>
+	</div>
+	
+		
+	
+	
+	
+		<div id ="logos-row">
+				<div class = "logo-col">
+					<img class="one" src = "/static/IEEE logo 2.png">
+				</div>
+				<div class="org">
+					<h1> ADA LOVELACE HACKATHON ORGANISERS 2020</h1>
+				</div>
+				<div class = "logo-col">
+				     <img class="two" src = "/static/IBM logo 2.png" font:">
+			    </div>
+			
+	     </div>
+	
+    
+</body>
+</html>
