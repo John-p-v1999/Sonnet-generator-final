@@ -16,3 +16,7 @@ the sonnet generated will be displayed.
 
 
 The files sonnet.ipynb and caption.ipynb are the files which were used for training
+
+
+
+NOTE DUE TO LARGE FILES UPLAODED, THE GITHUB REPOSITORY HAS CRASHED. PLEASE WAIT FOR A WHILE. THANK YOU FOR YOUR PATIENCE
