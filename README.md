@@ -19,11 +19,13 @@ The files sonnet.ipynb and caption.ipynb are the files which were used for train
 
 SOME FILES ARE VERY LARGE FOR GITHUB. SO THE LINK TO THE FILE STORED IN CLOUD IS PROVIDED HERE. PLEASE DO DOWNLOAD IT AND STORE IT IN THE ROOT DIRECTORY OF app.py
 
-THE FILES ARE VGG16_SAVED_MODEL AND CAPTION_SOS.PICKLE
+THE FILES ARE VGG16_SAVED_MODEL,DEOCDER_MODEL AND CAPTION_SOS.PICKLE
 
 https://drive.google.com/drive/folders/18Np0PdZKnywDw1LlNBN3OEmlFfi0-Cpg?usp=sharing
 
 https://drive.google.com/file/d/1F1epUiJPYZ_079YZ7p0f94vAkWMUJg8-/view?usp=sharing
+
+https://drive.google.com/drive/folders/1-r-ucVDKhWw5pQN2kY3NNlvQH6Sa2yQK?usp=sharing
 
 
 
