@@ -22,10 +22,9 @@ def home():
         u = u.resize((244, 244), resample=PIL.Image.LANCZOS)
 
         img1 = np.array(u)
-        print(img1.shape)
+        
         image_batch = np.expand_dims(img1, axis=0)
-        print(image_batch)
-        print(image_batch.shape)
+       
 
 
 
@@ -41,7 +40,7 @@ def home():
             with open('tokenizer.pickle', 'rb') as handle:
                 tokeniser = pickle.load(handle)
             transfered_values = img_model.predict(image_batch)
-            print(transfered_values)
+            
             start_word = tokeniser.word_index['sos']
             end_word = tokeniser.word_index['eos']
             corpus_index = tokeniser.word_index
@@ -63,7 +62,7 @@ def home():
                 pred = np.argmax(token_output)
 
                 curr_token = pred
-                print(pred)
+                
                 sampled_word = corpus_index[pred]
                 output_text.append(sampled_word)
                 count_tokens += 1
