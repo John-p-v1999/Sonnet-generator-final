@@ -21,7 +21,7 @@ SOME FILES ARE VERY LARGE FOR GITHUB. SO THE LINK TO THE FILE STORED IN CLOUD IS
 
 THE FILES ARE VGG16_SAVED_MODEL,DEOCDER_MODEL AND CAPTION_SOS.PICKLE
 
-https://drive.google.com/drive/folders/18Np0PdZKnywDw1LlNBN3OEmlFfi0-Cpg?usp=sharing
+https://drive.google.com/drive/folders/1-f6Rpci4cCvZ1xNStCvTf_rt8x_vYpjP?usp=sharing
 
 https://drive.google.com/file/d/1F1epUiJPYZ_079YZ7p0f94vAkWMUJg8-/view?usp=sharing
 
